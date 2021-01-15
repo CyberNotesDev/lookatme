@@ -1,4 +1,5 @@
 import 'react-router-dom';
+import './../css/LogIn.css';
 
 function LogIn() {
     return (

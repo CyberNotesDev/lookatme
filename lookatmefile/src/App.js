@@ -1,4 +1,6 @@
+import Home from './components/Home';
 import LogIn from './components/LogIn';
+import Footer from './components/Footer';
 import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 function App() {
@@ -16,14 +18,15 @@ function App() {
     
         <Switch>
           <Route exact path="/">
-            <h1>This is going to be the home page</h1>
+            <Home />
           </Route>
           <Route path="/login">
             <LogIn />
           </Route>
         </Switch>
 
-      </Router>  
+        <Footer />  
+      </Router>
     </div>
   );
 }

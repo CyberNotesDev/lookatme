@@ -1,5 +1,5 @@
 .login {
-    background-color: rgb(5, 56, 56);
+    background-color: lightsteelblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,10 +9,30 @@
 .form-container {
     border-radius: 10px;
     padding: 15px;
-    background-color: lightgray;
+    background-color: lightskyblue;
     width: 75%;
 }
 
 h2 {
     margin-top: 0;
+}
+
+.form-container input {
+    outline: none;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.logandforgot {
+    display: flex;
+    justify-content: space-around;
+}
+
+button { 
+    outline: none;
+    background: linear-gradient(45deg, blue, red);
+    border-radius: 5px;
+    color: white;
+    width: 30%;
+    height: 35px;
 }

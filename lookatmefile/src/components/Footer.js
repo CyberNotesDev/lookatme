@@ -5,7 +5,7 @@ function Footer() {
         <div className="footer">
             <div>Contact</div>
             <div>Privacy</div>
-            @CyberNotesDev {new Date().getFullYear()}
+            @CyberNotesDev - {new Date().getFullYear()}
         </div>
     );
 }

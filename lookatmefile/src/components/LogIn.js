@@ -1,3 +1,5 @@
+import 'react-router-dom';
+
 function LogIn() {
     return (
       <div>
@@ -9,9 +11,8 @@ function LogIn() {
             <label>Password</label>
             <input type="password" />
           </form>
-          <a href="#">Back</a>
-          <a href="#">Forgot Password</a>
-          <a href="#">Log In</a>
+          <h1>Forgot Password</h1>
+          <h1>Log In</h1>
         </div>
       </div>
     );

@@ -3,8 +3,9 @@ import './../css/LogIn.css';
 
 function LogIn() {
     return (
-      <div>
+      <div className="login">
         <div className="form-container">
+          <h2>Welcome :)</h2>
           <form>
             <label>Email</label>
             <input type="text" /> 

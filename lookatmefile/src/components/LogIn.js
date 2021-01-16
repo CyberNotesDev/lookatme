@@ -1,6 +1,6 @@
 import 'react-router-dom';
 import './../css/LogIn.css';
-import { Link, Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import { Link, BrowserRouter as Router } from 'react-router-dom';
 // Work on Help Page
 function LogIn() {
     return (

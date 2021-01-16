@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:first-of-type {
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 25%;
+    height: 25px;
+}
+
+input {
+    outline: none;
+    border-right: none;
+    position: relative;
+    height: inherit;
+}
+
+button {
+    outline: none;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: blue;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    z-index: 10;
+    height: inherit;
+    width: 35px;
+}
